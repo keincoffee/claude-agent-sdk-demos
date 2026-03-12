@@ -18,6 +18,15 @@ Demonstrations of working with spreadsheets and Excel files using Claude.
 ### 👋 [Hello World](./hello-world)
 A simple getting-started example to help you understand the basics of the Claude Agent SDK.
 
+### 👋 [Hello World V2](./hello-world-v2)
+Examples for the V2 Session API (`unstable_v2_*`), demonstrating multi-turn conversations, session persistence, and the differences between the V1 `query()` and V2 Session APIs.
+
+### 💬 [Simple Chat App](./simple-chatapp)
+A full-stack demo chat application using the Claude Agent SDK with a React frontend and Express backend, demonstrating real-time WebSocket communication and multi-session management.
+
+### 📄 [Resume Generator](./resume-generator)
+Generates professional resumes by researching a person using web search (LinkedIn, GitHub, company pages) and producing a formatted `.docx` file via the Claude Agent SDK.
+
 ### 🔬 [Research Agent](./research-agent)
 A multi-agent research system that coordinates specialized subagents to research topics and generate comprehensive reports:
 - Breaks research requests into subtopics
