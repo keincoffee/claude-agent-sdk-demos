@@ -1,0 +1,41 @@
+account_id,account_name,industry,hq_city,hq_state,region,annual_revenue_millions,employee_count,segment,current_rep_id,account_status,current_arr_usd
+A001,Meridian Financial Group,Financial Services,New York,NY,East,2800,12000,Enterprise,R001,Customer,420000
+A002,Beacon Health Systems,Healthcare,Boston,MA,East,950,4500,Enterprise,R001,Customer,185000
+A003,Coastal Logistics Co,Transportation,Newark,NJ,East,180,800,Mid-Market,R001,Customer,54000
+A004,Summit Retail Partners,Retail,Philadelphia,PA,East,95,450,Mid-Market,R002,Prospect,0
+A005,Atlantic Insurance Group,Insurance,Hartford,CT,East,320,1400,Mid-Market,R002,Customer,78000
+A006,Northeast Manufacturing,Manufacturing,Buffalo,NY,East,65,300,Commercial,R002,Prospect,0
+A007,Harbor Capital Management,Financial Services,New York,NY,East,520,2200,Enterprise,R001,Prospect,0
+A008,Liberty Media Solutions,Media,New York,NY,East,140,600,Mid-Market,R002,Customer,42000
+A009,Tri-State Energy Corp,Energy,Stamford,CT,East,780,3200,Enterprise,R001,Customer,156000
+A010,Blue Ridge Tech,Technology,Raleigh,NC,East,88,380,Mid-Market,R002,Prospect,0
+A011,Pacific Dynamics Inc,Technology,San Francisco,CA,West,4200,18000,Enterprise,R005,Customer,630000
+A012,Cascade Healthcare,Healthcare,Seattle,WA,West,1100,5200,Enterprise,R005,Customer,220000
+A013,Sierra Nevada Brewing,Consumer Goods,Chico,CA,West,450,2000,Mid-Market,R003,Customer,108000
+A014,Golden Gate Ventures,Financial Services,San Francisco,CA,West,280,1200,Mid-Market,R003,Customer,84000
+A015,Redwood Biotech,Life Sciences,South San Francisco,CA,West,670,2800,Enterprise,R005,Prospect,0
+A016,SunBelt Solar Energy,Energy,Phoenix,AZ,West,190,850,Mid-Market,R004,Customer,57000
+A017,Mojave Logistics,Transportation,Las Vegas,NV,West,72,320,Commercial,R004,Prospect,0
+A018,Olympic Sports Group,Retail,Portland,OR,West,130,580,Mid-Market,R003,Customer,39000
+A019,Willamette Valley Foods,Consumer Goods,Eugene,OR,West,48,220,Commercial,R004,Prospect,0
+A020,Bay Area Transit Authority,Government,Oakland,CA,West,890,4100,Enterprise,R005,Prospect,0
+A021,Rocky Mountain Insurance,Insurance,Denver,CO,West,260,1100,Mid-Market,R003,Customer,78000
+A022,NorCal Aerospace,Manufacturing,Sacramento,CA,West,580,2600,Enterprise,R005,Customer,174000
+A023,Valley Agriculture Partners,Agriculture,Fresno,CA,West,42,185,Commercial,R004,Prospect,0
+A024,Heartland Financial Corp,Financial Services,Chicago,IL,Central,3100,13500,Enterprise,R007,Customer,465000
+A025,Great Lakes Manufacturing,Manufacturing,Detroit,MI,Central,820,3800,Enterprise,R007,Customer,164000
+A026,Prairie Wind Energy,Energy,Omaha,NE,Central,310,1350,Mid-Market,R006,Customer,93000
+A027,Mississippi River Transport,Transportation,St. Louis,MO,Central,145,650,Mid-Market,R006,Customer,43500
+A028,Midwest Media Group,Media,Minneapolis,MN,Central,195,860,Mid-Market,R006,Prospect,0
+A029,Chicago Retail Alliance,Retail,Chicago,IL,Central,88,390,Mid-Market,R008,Prospect,0
+A030,Cardinal Health Network,Healthcare,Columbus,OH,Central,1450,6800,Enterprise,R007,Customer,290000
+A031,Lakefront Technology,Technology,Milwaukee,WI,Central,62,275,Commercial,R008,Prospect,0
+A032,Twin Cities Biomedical,Life Sciences,Minneapolis,MN,Central,380,1650,Mid-Market,R007,Customer,114000
+A033,Central States Insurance,Insurance,Kansas City,MO,Central,240,1050,Mid-Market,R006,Prospect,0
+A034,Indiana Automotive Parts,Manufacturing,Indianapolis,IN,Central,98,430,Mid-Market,R008,Prospect,0
+A035,Nashville Music Corp,Media,Nashville,TN,Central,55,240,Commercial,R008,Prospect,0
+A036,Steel City Solutions,Manufacturing,Pittsburgh,PA,East,175,780,Mid-Market,R001,Customer,52500
+A037,Lone Star Hospitality,Hospitality,Dallas,TX,Central,290,1280,Mid-Market,R007,Prospect,0
+A038,Silicon Slopes Tech,Technology,Salt Lake City,UT,West,165,730,Mid-Market,R003,Prospect,0
+A039,Gulf Coast Petrochem,Energy,Houston,TX,Central,2200,9500,Enterprise,R007,Customer,330000
+A040,New England Pharma,Life Sciences,Cambridge,MA,East,920,4200,Enterprise,R001,Prospect,0

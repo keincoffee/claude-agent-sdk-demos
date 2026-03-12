@@ -27,6 +27,9 @@ A full-stack demo chat application using the Claude Agent SDK with a React front
 ### 📄 [Resume Generator](./resume-generator)
 Generates professional resumes by researching a person using web search (LinkedIn, GitHub, company pages) and producing a formatted `.docx` file via the Claude Agent SDK.
 
+### 📈 [Varicent Planning Agent](./varicent-planning-agent)
+A multi-agent sales planning tool for Varicent consultants. Reads a Technical Design Document and sales data CSVs, then runs three specialized subagents in parallel to produce territory assignments, quota targets, individual quota letters, and a full planning cycle specification with Varicent setup checklist.
+
 ### 🔬 [Research Agent](./research-agent)
 A multi-agent research system that coordinates specialized subagents to research topics and generate comprehensive reports:
 - Breaks research requests into subtopics

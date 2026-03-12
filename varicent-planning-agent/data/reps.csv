@@ -1,0 +1,9 @@
+rep_id,rep_name,title,region,email,manager_name,hire_date,ote_usd,base_salary_usd,tenure_months
+R001,Sarah Chen,Senior Account Executive,East,sarah.chen@nexusanalytics.com,Mark Davis,2021-03-15,200000,100000,47
+R002,James Rodriguez,Account Executive,East,james.rodriguez@nexusanalytics.com,Mark Davis,2022-07-01,160000,80000,30
+R003,Emily Okafor,Senior Account Executive,West,emily.okafor@nexusanalytics.com,Lisa Patel,2020-11-01,200000,100000,51
+R004,David Kim,Account Executive,West,david.kim@nexusanalytics.com,Lisa Patel,2023-01-10,160000,80000,18
+R005,Rachel Thompson,Enterprise Account Executive,West,rachel.thompson@nexusanalytics.com,Lisa Patel,2019-06-20,280000,140000,67
+R006,Michael Browne,Account Executive,Central,michael.browne@nexusanalytics.com,James Wright,2022-03-01,160000,80000,34
+R007,Priya Sharma,Senior Account Executive,Central,priya.sharma@nexusanalytics.com,James Wright,2021-09-15,200000,100000,42
+R008,Tom Anderson,Account Executive,Central,tom.anderson@nexusanalytics.com,James Wright,2024-01-15,160000,80000,3

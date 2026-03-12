@@ -1,0 +1,16 @@
+{
+  "name": "varicent-planning-agent",
+  "type": "module",
+  "description": "Automatically generate a Varicent sales planning cycle from a Technical Design Document and sales data",
+  "scripts": {
+    "start": "npx tsx varicent-planning-agent.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.59"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

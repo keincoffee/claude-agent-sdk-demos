@@ -1,0 +1,274 @@
+================================================================================
+TECHNICAL DESIGN DOCUMENT
+FY2025 SALES PLANNING CYCLE
+
+Client:       Nexus Analytics Inc.
+Prepared by:  Varicent Consulting Practice
+Date:         December 2024
+Version:      2.1 (Final)
+================================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------
+This document specifies the FY2025 sales planning cycle for Nexus Analytics Inc.,
+a B2B analytics software company. The planning cycle covers territory design, quota
+setting, compensation plan mechanics, and workflow configuration for implementation
+in Varicent Sales Performance Management (SPM).
+
+Company FY2025 Revenue Target: $18,000,000 New ARR
+Number of Quota-Carrying Reps: 8 (plus 1 ramping rep excluded from full quota)
+Planning Cycle Start: February 1, 2025
+Go-Live Date: January 15, 2025
+
+Key Design Principles:
+  - Pay-for-performance with clear line-of-sight between effort and reward
+  - Territory balance: no rep should carry more than 2x another rep's addressable market
+  - Quota fairness: methodology must be explainable to reps in plain language
+  - Simple accelerator structure (max 2 tiers above quota)
+
+
+2. ORGANIZATIONAL STRUCTURE
+----------------------------
+2.1 Sales Hierarchy
+
+  CRO
+  └── VP, East (Mark Davis)
+      ├── Sarah Chen — Senior AE, East
+      └── James Rodriguez — AE, East
+  └── VP, West (Lisa Patel)
+      ├── Emily Okafor — Senior AE, West
+      ├── David Kim — AE, West (18 months tenure)
+      └── Rachel Thompson — Enterprise AE, West
+  └── VP, Central (James Wright)
+      ├── Michael Browne — AE, Central
+      ├── Priya Sharma — Senior AE, Central
+      └── Tom Anderson — AE, Central (RAMPING — hired Jan 2025)
+
+2.2 Role Definitions
+
+  Account Executive (AE): Handles Mid-Market and Commercial accounts
+    Quota range: $1.4M – $1.8M annual new ARR
+
+  Senior Account Executive (Senior AE): Handles Mid-Market and Enterprise accounts
+    Quota range: $1.9M – $2.6M annual new ARR
+
+  Enterprise Account Executive: Handles named Enterprise accounts only
+    Quota range: $3.2M – $4.5M annual new ARR
+
+
+3. TERRITORY DESIGN
+-------------------
+3.1 Segmentation Model
+
+  Segment definitions (by prospect/customer annual revenue):
+    Enterprise:   $500M+ revenue  → Assigned to Senior AEs and Enterprise AE
+    Mid-Market:   $50M–$499M revenue → Assigned to AEs and Senior AEs
+    Commercial:   <$50M revenue   → Assigned to AEs only
+
+3.2 Geographic Rules
+
+  Accounts are assigned to reps based on HQ location and region:
+    East Region:    NY, NJ, CT, MA, PA, RI, VT, NH, ME, DE, MD, DC, NC, SC, VA, WV
+    West Region:    CA, OR, WA, NV, AZ, UT, ID, MT, WY, CO, NM, AK, HI
+    Central Region: All remaining states (IL, TX, MN, MO, OH, MI, WI, IN, KS, NE,
+                    IA, ND, SD, OK, AR, LA, MS, AL, TN, KY, GA, FL)
+
+3.3 Named Account Rules (Override Geographic Defaults)
+
+  The following named accounts are assigned to specific reps regardless of geography:
+    Rachel Thompson (R005): All accounts with annual_revenue_millions >= 1000 in West
+    Sarah Chen (R001):      All accounts with annual_revenue_millions >= 700 in East
+    Priya Sharma (R007):    All accounts with annual_revenue_millions >= 700 in Central
+
+  Note: David Kim (R004) and Tom Anderson (R008) are excluded from Enterprise accounts
+  due to tenure < 24 months.
+
+3.4 Territory Balance Guidelines
+
+  Target workload per rep:
+    AE:            8–14 accounts (mix of prospect and customer)
+    Senior AE:     6–10 accounts
+    Enterprise AE: 4–7 accounts
+
+  If a rep would exceed the upper limit, reassign lower-tier accounts to the next
+  available rep in the same region.
+
+3.5 Prospect vs. Customer Split
+
+  Target per rep: minimum 40% of accounts should be prospects (growth pipeline)
+  Customer accounts provide renewal and expansion revenue (not counted in new ARR quota)
+
+
+4. QUOTA METHODOLOGY
+---------------------
+4.1 Top-Down Target
+
+  Company FY2025 New ARR Target: $18,000,000
+  Regional allocation:
+    East Region:    $5,400,000   (30% of total)
+    West Region:    $8,100,000   (45% of total)
+    Central Region: $4,500,000   (25% of total)
+
+4.2 Distribution Formula
+
+  Individual quotas are calculated using a weighted formula:
+    Rep Quota = Total Regional Target × Rep Share
+
+    Rep Share = (0.60 × Historical Component) + (0.40 × Market Potential Component)
+
+  Historical Component:
+    - Average of FY2023 and FY2024 annual attainment percentages (for reps with 2 years)
+    - FY2024 only for reps with < 2 full years (David Kim)
+    - Ramp discount applies for reps with < 12 months tenure (see Section 4.4)
+    - Normalize across reps within the same region so components sum to 1.0
+
+  Market Potential Component:
+    - Sum of annual_revenue_millions for assigned prospect accounts × 0.02
+      (assumed 2% win rate on new logos)
+    - Plus sum of current_arr_usd for assigned customer accounts × 0.15
+      (assumed 15% expansion rate)
+    - Normalize across reps within the same region so components sum to 1.0
+
+4.3 Quota Floors and Ceilings
+
+  No individual quota may exceed 30% of the regional target
+  No individual quota may be less than $1,200,000 (floor for AE role)
+  No individual quota may be less than $1,800,000 (floor for Senior AE role)
+  Enterprise AE floor: $3,000,000
+
+4.4 Ramp Schedule
+
+  Reps with < 6 months tenure at plan start (Feb 1, 2025) receive a ramp discount:
+    Tom Anderson (3 months tenure): 40% ramp quota (full ramp by Q3 2025)
+
+  Ramping rep quota counts toward regional total but at discounted rate.
+  Ramp schedule: Q1=20%, Q2=30%, Q3=25%, Q4=25% of annual ramped quota
+
+4.5 Quarterly Seasonality
+
+  Full quota reps — standard quarterly distribution:
+    Q1 (Feb–Apr):  22% of annual
+    Q2 (May–Jul):  25% of annual
+    Q3 (Aug–Oct):  25% of annual
+    Q4 (Nov–Jan):  28% of annual
+
+  Note: FY2025 runs February 1, 2025 – January 31, 2026
+
+
+5. COMPENSATION PLAN MECHANICS
+--------------------------------
+5.1 Pay Mix
+
+  All roles: 50/50 base salary to variable compensation (OTE = base × 2)
+  Variable is earned as commission on new ARR closed.
+
+5.2 Commission Rates (On-Target)
+
+  Commission rate at 100% attainment = 50% of OTE ÷ Annual Quota
+  Example: Sarah Chen OTE $200K → variable $100K ÷ $2.25M quota = 4.44% commission rate
+
+5.3 Accelerator Structure
+
+  Tier 1 (100%–120% attainment): 1.5× base commission rate
+  Tier 2 (>120% attainment):     2.0× base commission rate
+
+  Accelerators apply to the incremental deals above threshold, not retroactively.
+
+5.4 Draw Policy
+
+  No recoverable draw. Base salary is guaranteed.
+  Commission accrues monthly based on closed-won deals.
+
+5.5 Clawback Policy
+
+  Deals cancelled within 90 days of close are subject to commission clawback.
+  Deals >$500K require VP approval before commission is paid.
+
+
+6. APPROVAL WORKFLOW
+---------------------
+6.1 Quota Approval Chain
+
+  Step 1: Rep acknowledges quota letter (digital signature required)
+           Deadline: February 15, 2025
+  Step 2: Regional VP approves territory assignments and quotas
+           Deadline: January 20, 2025
+  Step 3: CRO final approval of full plan
+           Deadline: January 31, 2025
+  Step 4: HR records comp plan in system of record
+           Deadline: February 1, 2025 (plan go-live)
+
+6.2 Dispute Resolution
+
+  Reps may dispute their quota within 10 business days of receiving quota letter.
+  Disputes escalate: Rep → Manager → VP → Compensation Committee
+  Compensation Committee meets monthly; decisions are final.
+
+6.3 Mid-Year Adjustments
+
+  Territory changes require VP + CRO approval.
+  Quota adjustments permitted only for: role change, leave of absence > 30 days,
+  or company reorganization.
+
+
+7. VARICENT CONFIGURATION REQUIREMENTS
+----------------------------------------
+7.1 Data Tables Required
+
+  REPS table: rep_id, rep_name, title, region, email, manager_name,
+              hire_date, ote_usd, base_salary_usd, tenure_months
+
+  ACCOUNTS table: account_id, account_name, industry, hq_state, region,
+                  annual_revenue_millions, segment, current_arr_usd, account_status
+
+  TERRITORY_ASSIGNMENTS table: account_id, rep_id, effective_date, rationale
+
+  QUOTA_TARGETS table: rep_id, period (Q1/Q2/Q3/Q4/Annual),
+                       quota_amount, quota_type (new_arr)
+
+  PERFORMANCE table: rep_id, period, actual_new_arr, quota_amount,
+                     attainment_pct, commission_earned
+
+7.2 Import Specifications
+
+  All monetary values in USD (whole numbers, no decimals)
+  All percentages as decimal (e.g., 112.5% → 112.5)
+  Dates in ISO 8601 format (YYYY-MM-DD)
+  Encoding: UTF-8
+  Delimiter: comma (,)
+  Header row required on all files
+
+7.3 Calculation Order in Varicent
+
+  1. Load REPS and ACCOUNTS
+  2. Load TERRITORY_ASSIGNMENTS
+  3. Calculate QUOTA_TARGETS (from formula in Section 4)
+  4. Load PERFORMANCE data (monthly actuals feed)
+  5. Calculate commissions from PERFORMANCE vs QUOTA_TARGETS
+
+7.4 Key Reports Required
+
+  - Territory coverage map (accounts per rep, revenue potential per rep)
+  - Quota attainment dashboard (MTD, QTD, YTD by rep and region)
+  - Pipeline-to-quota ratio by rep (minimum 3× coverage expected)
+  - Commission accrual report (monthly, for payroll)
+  - Accelerator earned report (quarterly)
+
+
+8. OPEN ITEMS / ASSUMPTIONS
+-----------------------------
+  1. Assumed all prospect account revenue figures are addressable market
+     (not filtered for existing customer overlap with other solutions).
+  2. Tom Anderson's ramp quota is calculated on Central regional target
+     before his discount is applied; remainder redistributed to Priya Sharma
+     and Michael Browne proportionally.
+  3. Expansion revenue from existing customers is tracked separately and
+     does not count toward new ARR quota.
+  4. Gulf Coast Petrochem (A039) is classified as Central despite TX being
+     in multiple possible regional definitions; confirmed with VP James Wright.
+  5. Rocky Mountain Insurance (A021) is West region per Denver CO location.
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
